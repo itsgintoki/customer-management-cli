@@ -1,0 +1,23 @@
+{
+  "name": "customer-management-cli",
+  "version": "1.0.0",
+  "description": "\"Basic CLI for practice\"",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin":"./commands.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "customer-management-cli"
+  },
+  "author": "Gintoki",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "express": "^4.21.1",
+    "inquirer": "^12.0.1",
+    "mongoose": "^8.7.3"
+  }
+}
